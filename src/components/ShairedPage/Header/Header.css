@@ -1,0 +1,36 @@
+.contact{
+    /* margin-top: 0px; */
+    height: 40px;
+    color: aliceblue;
+   background-color: #0E2737;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.phone{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.mail{
+    margin-left: 10px;
+}
+.social-site{
+    margin-right: 110px;
+    
+}
+.Facebook{
+    color: white;
+    margin-right: 20px;
+}
+.Twitter{
+    color: white;
+    margin-right: 20px;
+}
+.Instagram{
+    color: white;
+    margin-right: 20px;
+}
+
