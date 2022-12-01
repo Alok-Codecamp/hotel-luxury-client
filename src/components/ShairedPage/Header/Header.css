@@ -1,36 +1,77 @@
-.contact{
-    /* margin-top: 0px; */
-    height: 40px;
-    color: aliceblue;
-   background-color: #0E2737;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-}
-
-.phone{
-    margin-left: 10px;
-    margin-right: 20px;
+.contact {
+  height: 40px;
+  color: aliceblue;
+  background-color: #0e2737;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mail{
-    margin-left: 10px;
+.call-mail{
+    margin-left: 60px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
-.social-site{
-    margin-right: 110px;
-    
+.call-mail>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Facebook{
-    color: white;
-    margin-right: 20px;
+.call-mail>ul>li{
+    list-style: none;
+    margin-right: 10px;
 }
-.Twitter{
-    color: white;
-    margin-right: 20px;
-}
-.Instagram{
-    color: white;
-    margin-right: 20px;
+.phone {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  
 }
 
+.mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.social-site {
+  margin-right: 100px;
+}
+.Facebook {
+  color: white;
+  margin-right: 20px;
+}
+.Twitter {
+  color: white;
+  margin-right: 20px;
+}
+.Instagram {
+  color: white;
+  margin-right: 20px;
+}
+
+.menu-bar {
+  /* background-color:#1CC3B2; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 2px solid green;
+}
+.logo {
+  margin-left: 100px;
+}
+.navigation > ul {
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.navigation > ul > li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.top-book-button {
+  margin-right: 100px;
+}
